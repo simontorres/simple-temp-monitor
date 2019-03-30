@@ -1,0 +1,16 @@
+version: "3.2"
+services:
+
+#  db:
+#    image: mongo
+#    volumes:
+#      - ./data:/data/db
+#    ports:
+#      - "27017:27017"
+#    restart: always
+
+  sensors:
+    build:
+      context: sensors
+    devices:
+      - "/dev/ttyACM0:/dev/ttyACM0"
