@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-python read_serial.py
+python -u read_serial.py
